@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A8006DA11C1D36DB001DA0CB"
+               BuildableName = "151213_swift_bmi.app"
+               BlueprintName = "151213_swift_bmi"
+               ReferencedContainer = "container:151213_swift_bmi.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A8006DB51C1D36DB001DA0CB"
+               BuildableName = "151213_swift_bmiTests.xctest"
+               BlueprintName = "151213_swift_bmiTests"
+               ReferencedContainer = "container:151213_swift_bmi.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A8006DC01C1D36DB001DA0CB"
+               BuildableName = "151213_swift_bmiUITests.xctest"
+               BlueprintName = "151213_swift_bmiUITests"
+               ReferencedContainer = "container:151213_swift_bmi.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A8006DA11C1D36DB001DA0CB"
+            BuildableName = "151213_swift_bmi.app"
+            BlueprintName = "151213_swift_bmi"
+            ReferencedContainer = "container:151213_swift_bmi.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A8006DA11C1D36DB001DA0CB"
+            BuildableName = "151213_swift_bmi.app"
+            BlueprintName = "151213_swift_bmi"
+            ReferencedContainer = "container:151213_swift_bmi.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A8006DA11C1D36DB001DA0CB"
+            BuildableName = "151213_swift_bmi.app"
+            BlueprintName = "151213_swift_bmi"
+            ReferencedContainer = "container:151213_swift_bmi.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
