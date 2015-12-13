@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label_view: UILabel!
     
     @IBAction func btn_calculate(sender: UIButton) {
+        
         let height: Double? = Double(tf_height.text!)
         if height == nil {
             label_view.text = "enter height is wrong!"
@@ -24,13 +25,24 @@ class ViewController: UIViewController {
         }
         
         let weight: Double? = Double(tf_weight.text!)
+        
         if weight == nil {
             label_view.text = "enter weight is wrong!"
             return
         }
         
         let bmi: Double = weight! / ((height!/100)*(height!/100))
-        label_view.text = "Your bmi is \(bmi)"
+        if bmi < 18.5 {
+            label_view.text = "Your bmi is \(bmi) 太瘦拉"
+        }
+        else if bmi >= 18.5 && bmi < 24 {
+            label_view.text = "Your bmi is \(bmi) 你很正常"
+        }
+        else if bmi >= 24 && bmi < 28 {
+            label_view.text = "Your bmi is \(bmi) 有點過重囉"
+        }else {
+            label_view.text = "Your bmi is \(bmi) 太胖了吧！"
+        }
     }
     
     override func viewDidLoad() {
